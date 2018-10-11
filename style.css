@@ -7,6 +7,7 @@ body {
 }
 img {
     size: 50%;
+    padding-bottom: 25px;
 }
 h1, h2 {
     font-family: 'Rokkitt', serif;
@@ -36,12 +37,18 @@ h3 {
     display: block;
     padding: 14px 16px;
     text-align: center;
+    font-size: 15pt;
+}
+div {
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
 }
 #content {
     border-style: solid;
     border-width: 4px;
     border-color: darkblue;
-    margin-top: 20px; 
     width: 68%; /*try to use % instead of px*/
     margin-left: auto;
     margin-right: auto;
@@ -49,11 +56,14 @@ h3 {
     padding-bottom: 20px;
     background-color: rgba(179,179,179,0.7); /*rgba(#,#,#,opacity #)*/
 }
+#web {
+    text-align: right;
+    margin-right: 190px;
+}
 #resume {
     border-style: solid;
     border-width: 4px;
     border-color: darkblue;
-    margin-top: 20px; 
     width: 68%; /*try to use % instead of px*/
     margin-left: auto;
     margin-right: auto;
@@ -83,7 +93,7 @@ th, td {
     border-width: 3px;
 }
 #content ul, #content ol {
-    width: 25%;
+    width: 40%;
     margin: auto;
 }
 p {
@@ -92,4 +102,5 @@ p {
 }
 #content ul li, #content ol li {
     text-align: left;
+    margin: auto;
 }
