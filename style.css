@@ -39,28 +39,14 @@ h3 {
     text-align: center;
     font-size: 15pt;
 }
-div {
-    margin-top: 10px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    margin-bottom: 10px;
-}
 #content {
-    border-style: solid;
-    border-width: 4px;
-    border-color: darkblue;
-    width: 68%; /*try to use % instead of px*/
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
-    padding-bottom: 20px;
-    background-color: rgba(179,179,179,0.7); /*rgba(#,#,#,opacity #)*/
 }
 #web {
     text-align: right;
     margin-right: 190px;
 }
-#resume {
+div {/*#resume*/
     border-style: solid;
     border-width: 4px;
     border-color: darkblue;
@@ -70,6 +56,10 @@ div {
     text-align: left;
     padding-bottom: 20px;
     background-color: rgba(179,179,179,0.7); /*rgba(#,#,#,opacity #)*/
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
 }
 #resume p, #resume h3, #resume h1 {
     margin-left: 10%;
@@ -92,15 +82,16 @@ th, td {
     border-style: solid;
     border-width: 3px;
 }
-#content ul, #content ol {
-    width: 40%;
-    margin: auto;
-}
+
 p {
     margin-left: 15%;
     margin-right: 15%;
 }
 #content ul li, #content ol li {
     text-align: left;
+    margin: auto;
+}
+#content ul, #content ol {
+    width: 40%;
     margin: auto;
 }
